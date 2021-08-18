@@ -1,0 +1,286 @@
+.navbar{
+    background-color:rgb(33, 146, 146) ;
+    padding:10px 200px;
+}
+
+.navbar a{
+    color:white;
+    text-decoration: none;
+    padding:5px;
+    font-weight: light;
+}
+
+.navbar-toggler-icon{
+    border:none;
+}
+
+ .navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        }
+
+        #Home img{
+            height:300px;
+            object-fit: cover;
+            opacity: 0.9;
+        }
+
+#Home .align-right{
+    text-align:right
+}
+
+#Home button{
+    background-color:rgb(33, 146, 146);
+    color:white;
+}
+
+#searchDestination{
+    background-color:rgb(33, 146, 146);
+    text-align:center;
+    padding:5px;
+    color:white;
+    height:100px
+}
+
+#searchDestination input{
+    width:350px;
+}
+
+#results{
+    cursor: pointer;
+   overflow: hidden!important;
+   margin: auto;
+   color:black;
+   z-index:999!important;
+   height:200px;
+   width:350px;
+}
+
+#searchDestination li{
+    list-style-type: none;
+    background-color: rgb(157, 209, 206);
+    z-index:999!important;
+    position: relative;
+}
+
+#features{
+    text-align:center;
+    background-color:whitesmoke;
+    z-index:-1!important;
+}
+
+#features .row{
+    margin-left:10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div{
+    background-color: white;
+   margin-top: 2%;
+   padding:10px;
+   width:350px;
+   margin-left:1%;
+   margin-bottom: 2%;
+}
+
+#features i{
+    color:teal;
+    font-size: 10vw;
+    margin-bottom: 2%;
+}
+
+.popular{
+    color:teal;
+}
+
+#popularplaces img{
+    height:200px;
+}
+
+#popularplaces{
+   margin-left: 11%;
+   margin-right:10%;
+}
+
+#popularplaces button{
+    background-color: rgb(53, 51, 51);
+    color:white;
+    margin: 2% 0;
+}
+
+#follow{
+    background-color: rgb(33, 146, 146) ;
+    color:white;
+    text-align: center;
+    padding:5px;
+}
+
+#follow a{
+    text-decoration: none;
+    color:white;
+    font-size: 25px;
+    padding: 0px 5px;
+}
+
+#gallery{
+    margin-left:11%;
+    margin-right: 10%;
+}
+
+#gallery img{
+    width:200px;
+    height:250px;
+    margin:5px;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    height:60%;
+    max-width: 700px;
+    border:none;
+    outline:none
+}
+.myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.myImg:hover {opacity: 0.7;}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#contact{
+    margin-right: 9%;
+    margin-left:11.5%;
+}
+
+#contact .left-div{
+    background-color: rgb(33, 146, 146) ;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+
+#contact i{
+font-size: 30px;
+}
+
+.location-div{
+    margin-top:1%;
+    border: 1px solid gray;
+    margin-bottom:2%;
+}
+
+.location-div h5{
+      padding:10px;
+    border-bottom:1px solid gray;
+}
+
+.location-div h6{
+    font-size:20px;
+    padding: 10px;
+}
+
+.location-div h2{
+    padding:20px;
+    border-bottom:1px solid gray;
+}
+
+.right-div input{
+ 
+    border-width:0px 0px 1px 0px;
+    border-color:gray;
+    background-color:rgb(238, 232, 232) ;
+    outline:0;
+    width:100%;
+   }
+   
+   .right-div input,h4{
+       padding:5px
+   }
+   
+   .right-div h4{
+   margin-bottom: 3%;
+   }
+   
+   .right-div{
+       margin-top: 1%;
+       padding:20px;
+       background-color: rgb(238, 232, 232);
+       margin-bottom: 1%;
+       margin:5px auto
+   }
+   
+   .right-div button{
+       background-color:rgb(38, 114, 114) ;
+       color:white;
+       height:40px;
+       width:100px
+   }
+   
+   footer{
+    background-color: rgb(38, 114, 114);
+    color:white;
+    text-align: center;
+    height:30px;
+    padding:5px;
+}
+
+        @media only screen and (max-width:768px) {
+            .navbar{
+                padding:10px 20px
+            }
+            #searchDestination input{
+                width:70%;
+            }
+            #results{
+                width:60%;
+                padding:0px 10px;
+            }
+            #gallery img{
+                width:98%;
+                height:250px;
+                margin:2px auto;
+            }
+        }
+
+        @media only screen and (min-width:768px){
+         .div{
+             width:30%;
+         }
+
+            #features .row i{
+                font-size:4vw
+            }
+           
+            
+        }
